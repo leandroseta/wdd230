@@ -99,6 +99,9 @@ footer{
     font-family: 'Fragment Mono', monospace;
 }
 
+#update {
+    color: white;
+}
 
 /*medium view *****/
 @media only screen and (min-width:37.5em){
