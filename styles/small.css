@@ -2,6 +2,7 @@ body {
     font-size: 28px;
     line-height: 1.5;
     padding: 0.5em;
+    background-color: #ebebeb;
 }
 
 header, main, footer {
@@ -44,15 +45,24 @@ h1 {
 h2 {
     font-family: 'Chivo Mono', monospace;
     font-size: 1em;
+    text-align: center;
 }
 
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
+a {
+    color:black;
+}
+
+#update {
+    color: white;
+
+}
 
 li {
     font-family: 'Fragment Mono', monospace;
-    text-decoration: none;
-    
+    color: #ebebeb;
+  
 }
