@@ -1,0 +1,31 @@
+@media only screen and (min-width:620px){
+
+    h1 {
+        
+        font-size: 2em;
+    }
+    
+    h2 {
+        
+        font-size: 1.5em;
+    }
+
+    header {
+        display: flex;
+        border-radius: 10px;
+        max-height: 200px;
+        background-color: rgb(78, 113, 152);
+        color: white;
+        text-align: center;
+        padding: 1.2rem;
+        align-items: center;
+    }
+    
+
+    header img {
+        max-width: 70%;
+        max-height: 70%;
+        float: left;
+        border: 1px solid #000;
+    }
+}
