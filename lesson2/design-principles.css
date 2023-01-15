@@ -97,11 +97,12 @@ footer{
     text-align: center;
     background-color: #003153;
     font-family: 'Fragment Mono', monospace;
+    padding-bottom: 1.5em;
 }
 
 #update {
     color: white;
-    background-color: #003153;
+    
 }
 
 /*medium view *****/
