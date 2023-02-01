@@ -1,0 +1,4 @@
+Colore escudo lomas
+Rojo: #de4174
+Azul oscuro: #116cb2
+Turquesa: #33b5e6
