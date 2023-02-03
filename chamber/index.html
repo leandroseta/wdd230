@@ -13,14 +13,10 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 <body>
-<!--Header containing
-    Logo of business
-    Name of chamber H1 h2
-    Social Media youtube, Linkin, linked image
-    Site Navigation. home, events, committes, about, memeber
-    todays Date -->        
+     
     <header>
         <div><img id="logo"src="images/logo_lomas.jpg" alt="Lomas de Zamora Logo" width="150" height="150">
         </div>
@@ -51,33 +47,65 @@
         
     </header>
     <main>
-        <div><p>Hero with Site Name and call to action</p></div>
-        <div><p>Event</p></div>
-        <div><p>Weather</p></div>
-        <div><p>News Release</p></div>
-        <div class="spotlight">
-            <p>Spotlight 1</p>
-            <p>Spotlight 2</p>
+        <section class="callaction">
+            <h4>Call to Action</h4>
+        </section>
+        <section class="event">
+            <h4>Event</h4>
+        </section>
+        <section class="weather">
+            <h4>Weather</h4>
+        </section>
+        <section class="newsrelease">
+            <h4>News Release</h4>
+        </section>
+        <section class="spotlight">
+            <div class="spotlight_container">
+                <div class="spotlight_div">
+                    Spotlight 1
+                </div>
+                <div class="spotlight_div">
+                    Spotlight 2
+                </div>
+                <div class="spotlight_div">
+                    Spotlight 3
+                </div>
+            </div>
+        </section>
+        <section class="join">
+            <h4>Join</h4>    
+        </section>
+        <div class="info">
+            <div class="info1">
+                <img class="logo2" src="images/logo.png" alt="large logo">
+                <address>
+                    <b>Lomas de Zamora Chamber of Commerce</b><br>
+                    Manuel Castro 220<br>
+                    Lomas de zamora Buenos Aires 1832
+                </address>
+            </div>
+            <div class="info2">
+                <p>info@zunicipiozomasdezamora.org</p>
+                <p>11-3206-2487</p>
+                <a href="#">Location Map</a>
+            </div>
         </div>
-    </main>
 
-<!--Footer containing 
-    copywrite, my name, and class.  
-    Date and time for page update
-    Name, address, contact info, map location-->
-    <footer>
-        <div class="contact">
-            <img src="images/logo_lomas.jpg" alt="Lomas de Zamora logo" width="150" height="150">
-            
-            
 
-        </div>
-        <span id="copyright"></span> Seta - BYU-Idaho - WDD230 - Winter Semester <br>
-        <div>
-            <a id="update"></a>
-        </div>
-        </div>
-    </footer>
+        <footer>
+            <div class="contact">
+                <img src="images/logo_lomas.jpg" alt="Lomas de Zamora logo" width="150" height="150">
+                
+                
+
+            </div>
+            <span id="copyright"></span> Seta - BYU-Idaho - WDD230 - Winter Semester <br>
+            <div>
+                <a id="update"></a>
+            </div>
+            </div>
+        </footer>
+    </main>    
     <script src="scripts/app.js"></script>
 </body>
 </html>
