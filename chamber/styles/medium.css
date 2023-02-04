@@ -1,8 +1,76 @@
 /*Medium sized media starting at 768px*/
 @media only screen and (min-width: 768px){
 
+    
+   
+    
+    .hero {
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+    
+    .newsrelease {
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+    
+    .spotlight {
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
 
+    .join {
+        display: block;
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
 
+    .event {
+        grid-column: 1/5;
+        grid-row: 5/6;
+    }
 
+    .weather {
+        grid-column: 5/6;
+        grid-row: 5/6;
+    }
 
+    
+    .footer {
+        grid-column: 1/6;
+        grid-row: 9/10;
+    }
+
+   
+    
+ 
 }
+    /*
+    .spotlight_container {
+       
+    }
+    
+    .spotlight_container div {
+       
+    }
+    
+    .spotlight_container div:nth-of-type(1){
+       
+    }
+    .spotlight_container div:nth-of-type(2){
+       
+    }
+
+    .spotlight_container div:nth-of-type(3){
+       
+    }
+
+    */
+
+  
+    
+   
+
+
+   
+

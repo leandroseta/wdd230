@@ -10,7 +10,7 @@ button.addEventListener("click", () => {
 								const deleteBtn = document.createElement("button");
 					
         li.textContent = myName;
-								deleteBtn.texContent = " ⚔ ";
+								deleteBtn.texContent = '🎈';
 								deleteBtn.addEventListener("click", () => {
 										list.removeChild(li);
 								});
