@@ -15,7 +15,7 @@ document.getElementById('current-year').textContent = now.getFullYear();
 //hamburger menu
 function toggleNavMenu() {
     document.getElementById("headerNav").classList.toggle("open");
-    document.getElementById("hamburger").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
 }
 const computer = document.getElementById("hamburger");
 computer.onclick = toggleNavMenu;

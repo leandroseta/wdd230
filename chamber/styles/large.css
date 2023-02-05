@@ -1,13 +1,15 @@
 /*Large media screen starting at 992px*/
 @media only screen and (min-width: 992px){
-    nav button {
-     display: none;
-    }
-    nav ul#headerNav {
+  
+
+    #headerNav {
      display: flex;
      justify-content: center;
     } 
     
+    #hamburgerBtn {
+        display: none;
+    }
    
     .event {
         grid-column: 1/2;
@@ -72,6 +74,8 @@
         float: center;
     }
 
-
+    footer{
+        max-width: 1090px;
+    }
 
  }

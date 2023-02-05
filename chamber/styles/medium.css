@@ -2,7 +2,6 @@
 @media only screen and (min-width: 768px){
 
     
-   
     
     .hero {
         grid-column: 1/6;
@@ -41,8 +40,21 @@
         grid-row: 9/10;
     }
 
-   
-    
+    .adress {
+        float: center;
+    }
+
+    .map {
+        float: center;
+    }
+
+    .imgfoot {
+        float: center;
+    }
+
+    footer {
+        max-width: 992px;
+    }
  
 }
     /*

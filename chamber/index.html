@@ -7,9 +7,7 @@
     <meta name="description" content="Home page for Riverton Chamber of Commerse">
     <meta name="author" content="Crystal Martin">
     <title>Lomas de zamora Chamber of Commerce</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Playfair+Display:ital@0;1&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,400;1,300&family=Cutive+Mono&family=Fragment+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -34,31 +32,40 @@
                 <li><a href="https://www.instagram.com/municipioldz/"><img src="images/instagram.jpg" alt="Instagram logo" width="50" height="50"></a></li>
             </ul>
         </div>
+
         <Nav>
-        <button id="hamburger"><span>&#9776;</span><span>x</span></button>
-            <ul id="headerNav" >
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">Parks and events</a></li>
-                <li><a href="membership.html">Commerce</a></li>
+            <button id="hamburgerBtn" onclick="toggleNavMenu()"><span>&#9776;</span><span></span></button>
+            <ul id="headerNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Parks</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Commerce</a></li>
                         
             </ul>
         </Nav>
+        
         <div id="date"></div>
         
     </header>
+
     <main>
+
         <section class="hero">
-            <h4>Call to Action</h4>
+            <h4>Hero with the site name and call to Action</h4>
         </section>
+        
         <section class="event">
             <h4>Event</h4>
         </section>
+        
         <section class="weather">
             <h4>Weather</h4>
         </section>
+        
         <section class="newsrelease">
             <h4>News Release</h4>
         </section>
+        
         <section class="spotlight">
             <div class="spotlight_container">
                 <div class="spotlight_div">
@@ -72,14 +79,13 @@
                 </div>
             </div>
         </section>
+        
         <section class="join">
             <h4>Join</h4>    
         </section>
         
-        <section class="footer">-
-           
-            <div class="info">
-
+        <section  class="info">
+           <div>
                 <h3 class="adress">
                     <b>Lomas de Zamora Chamber of Commerce</b><br>
                     Manuel Castro 220<br>
@@ -89,18 +95,22 @@
                 <img class="imgfoot" src="images/logo_lomas.jpg" alt="Lomas de Zamora logo" width="150" height="150">
                 
                 <div class="map">
-                    <p>info@municipiozomasdezamora.org</p>
-                    <p>11-3206-2487</p>
-                    <a href="#">Location Map</a>
+                    info@municipiozomasdezamora.org<br>
+                    11-3206-2487<br><br>
+                    <a class="location" href="https://www.google.com/maps/place/Municipalidad+de+Lomas+de+Zamora/@-34.7574849,-58.4044215,19.83z/data=!4m13!1m7!3m6!1s0x95bccc3769b1e609:0xa27ae5b6ec0e7946!2sLomas+de+Zamora,+Provincia+de+Buenos+Aires!3b1!8m2!3d-34.7604171!4d-58.42875!3m4!1s0x95bcd291836fcd2f:0xd751d0252c13ead6!8m2!3d-34.7574629!4d-58.4035907">📍Location Map</a>
                 
             </div>
-    </section>
+        </section>
+
     </main>    
+
     <Footer>
+        
         <span id="copyright"></span> Seta - BYU-Idaho - WDD230 - Winter Semester <br>
         <div>
             <a id="update"></a>
         </div>
+    
     </Footer>
     
     <script src="scripts/app.js"></script>
