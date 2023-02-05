@@ -78,7 +78,7 @@
     }
     
     nav ul li a {
-        
+        color: black;
         margin: .1em;
         background-color: #5BC0F8;
         display: block;
