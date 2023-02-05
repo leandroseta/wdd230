@@ -4,7 +4,7 @@
         background-color: #2e93bf;
     }
 
-    header, nav, main, footer {
+    header, nav, main {
         max-width: 1110px;
         margin: 1.25rem auto;
     }
@@ -12,7 +12,7 @@
 
     header {
         display: grid;
-        grid-template-columns: 1fr 2 fr 1fr 1fr 1fr;
+    
         background-color: #116cb2;   
         align-content: center; 
     }
@@ -59,8 +59,7 @@
     nav button{
         margin: .2rem;
         background: transparent;
-        color: rgba( 228, 219, 219, .65);
-        border-color:rgba( 228, 219, 219, .65);
+        background-color: #5BC0F8;
         font-size: 1.5rem;
     }
     
@@ -161,13 +160,6 @@
         border: 1px solid gray;
     }
 
-    
-
-
-
-
-    /*Footer design background, font color and style, */
-
     .footer {
         grid-column: 1/6;
         grid-row: 7/8;
@@ -175,8 +167,21 @@
         text-align: center;    
     }
 
-   
+    footer {
+            margin: 1.25rem, auto;
+            max-width: 1110px;
+            grid-column: 1/6;
+            background-color: #116cb2;
+            text-align: center; 
+       
+    }
 
     footer div a:hover {
+       
         color: #FB7923;
+
+    }
+    
+    #update {
+        color: black;
     }
