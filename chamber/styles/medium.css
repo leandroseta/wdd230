@@ -29,6 +29,7 @@
         grid-row: 5/6;
     }
 
+    
     .weather {
         grid-column: 5/6;
         grid-row: 5/6;
@@ -41,21 +42,22 @@
     }
 
     .adress {
-        float: center;
+        float: none;
     }
 
     .map {
-        float: center;
+        float: none;
     }
 
     .imgfoot {
-        float: center;
+        float: none;
     }
 
     footer {
         max-width: 992px;
     }
- 
+    
+
 }
     /*
     .spotlight_container {
