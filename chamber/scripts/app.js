@@ -1,3 +1,12 @@
+//meet & Greet
+const dayOfWeek = new Date().getDay();
+        
+        if (dayOfWeek == 1 || dayOfWeek == 2) 
+           {
+            const meet = document.querySelector('#meetAndGreet');
+            meet.textContent = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';      
+           } 
+
 
 //modified update
 const update = document.querySelector('#update');

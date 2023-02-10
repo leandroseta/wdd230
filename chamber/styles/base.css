@@ -11,11 +11,20 @@
         font-family: 'Cutive Mono', monospace;
     }
 
-
+    
     header {
         display: grid;
         background-color: #116cb2;   
         align-content: center; 
+    }
+
+    #meetAndGreet {
+        color: white;
+        margin: 0.5rem;	
+        padding: 0.75rem;
+        background-color: rgba( 228, 219, 219, .20);
+        text-align: center;
+        grid-column: 1/6; 
     }
 
     h1, h2, h3 {
@@ -143,7 +152,11 @@
         }
   
     .spotlight_div {
-        border: 1px solid gray;;
+        border: 1px solid gray;
+        background-color: #116cb2;
+        color: #FFC93C;
+        text-align: center;
+        overflow-clip-margin: content-box;
     }
     
     section {
