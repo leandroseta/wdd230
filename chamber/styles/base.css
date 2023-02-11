@@ -22,10 +22,14 @@
         color: white;
         margin: 0.5rem;	
         padding: 0.75rem;
-        background-color: rgba( 228, 219, 219, .20);
         text-align: center;
         grid-column: 1/6; 
-    }
+        text-transform: uppercase;
+        color: #fff;
+        display: inline-block;
+        font-size: 25px;
+        }
+
 
     h1, h2, h3 {
         color: #f2edee;
