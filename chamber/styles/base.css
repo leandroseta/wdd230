@@ -11,7 +11,7 @@
         font-family: 'Cutive Mono', monospace;
     }
 
-    
+       
     header {
         display: grid;
         background-color: #116cb2;   
@@ -119,6 +119,7 @@
         color: black;
         grid-template-rows: 200px 200px 200px 200px, 200px;
         background-color: #2e93bf;
+        
         }
         
         .event {
@@ -129,20 +130,23 @@
         .hero {
             grid-column: 1/6;
             grid-row: 1/2;
+          
         }
         
         .newsrelease {
             grid-column: 1/6;
             grid-row: 4/5;
+            
         }
         
         .spotlight {
             display: inline;
             grid-column: 1/6;  
             grid-row: 5/7;
+           
         }
         
-        .spotlight_container div:nth-of-type(3){
+        .spotlight div:nth-of-type(3){
             display: none;
         
         }
@@ -150,24 +154,39 @@
             grid-column: 1/6;
             grid-row: 3/4;
         }
+
+        .weather img {
+            border: 5px solid white;
+        }
         
         .join {
             display: none;
         }
-  
-    .spotlight_div {
-        border: 1px solid gray;
+    
+    
+
+    section img {
+        max-width: 75%;
+    }
+    .spotlight img {
+        border: 3px solid white;
+    }
+
+    section {
+        
+        padding: 50px 10px;
+        margin: 10px;
+        display: inline;
         background-color: #116cb2;
         color: #FFC93C;
         text-align: center;
         overflow-clip-margin: content-box;
     }
-    
-    section {
-        background-color: lightgray;
-        padding: 50px 10px;
-        margin: 10px;
-        border: 1px solid gray;
+
+    section img {
+        
+        border-radius: 10px;
+        background-color: white;
     }
 
     .info {
