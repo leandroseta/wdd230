@@ -132,7 +132,64 @@
             grid-row: 1/2;
           
         }
+
+        .heroimg {
+            max-width: 100%;
+            display: block;
+        }
         
+    HTML CSSResult Skip Results Iframe
+    EDIT ON
+    .wrapper{
+        
+        margin-top: 5rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+    .wrapper a{
+        border-radius: 10px;
+        background-color: rgba( 228, 219, 219, .20);
+        display: block;
+        max-width: 100%;
+        height: 100px;
+        line-height: 100px;
+        font-size: 38px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        letter-spacing: 2px;
+        text-align: center;
+        position: relative;
+        transition: all .35s;
+        }
+
+        .wrapper a span{
+        position: relative;
+        z-index: 2;
+        }
+
+        .wrapper a:after{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #65ad65;
+        transition: all .35s;
+        }
+
+        .wrapper a:hover{
+        color: #fff;
+        }
+
+        .wrapper a:hover:after{
+        width: 100%;
+        }
+
         .newsrelease {
             grid-column: 1/6;
             grid-row: 4/5;
@@ -143,7 +200,7 @@
             display: inline;
             grid-column: 1/6;  
             grid-row: 5/7;
-           
+            
         }
         
         .spotlight div:nth-of-type(3){
@@ -162,15 +219,15 @@
         .join {
             display: none;
         }
-    
-    
 
-    section img {
-        max-width: 75%;
-    }
-    .spotlight img {
-        border: 3px solid white;
-    }
+
+
+        section img {
+            max-width: 75%;
+        }
+        .spotlight img {
+            border: 3px solid white;
+        }
 
     section {
         
